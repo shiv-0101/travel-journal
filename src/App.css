@@ -4,6 +4,7 @@ body{
   color: #000;
 }
 
+
 /*navigation.jsx*/
 
 .nav{
@@ -22,4 +23,72 @@ body{
 .nav svg{
   width: 2rem;
   height: 2rem;
+}
+
+/* content.jsx */
+h1, h4, p {
+  color: #2B283A;
+}
+
+.content{
+  padding: 40px;
+  width: 45%;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin: 0 auto;
+} 
+.left img{
+  width: 250px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.right{
+  margin: auto 0;
+}
+.sec0{
+  display: flex;
+  align-items: center;
+}
+.sec0 img{
+  width: 20px;
+  height: 20px;
+}
+
+.location{
+  margin: 0 0 0 5px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 500;
+  color: #151515b9;
+}
+.google-map-link{
+  margin-left: 20%;
+  color: gray;
+  text-decoration: underline;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.google-map-link:hover{
+  letter-spacing: 1px;
+}
+
+.title{
+  margin: 10px 0;
+  font-size: 2.6rem;
+}
+.date{
+  font-size: 17px;
+  margin: 30px 0 10px 0;
+}
+.description{
+  font-size: 17px;
+  margin: 5px 0 0 0;
+}
+.readmore-btn{
+  background: #0136F1;
+  color: #fff;
+  padding: 8px 20px;
+  margin-top: 30px;
 }
